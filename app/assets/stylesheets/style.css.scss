@@ -54,6 +54,7 @@ section {
 
 .weibo .weibo_detail {
   background-color: #f4f4f3;
+  position: relative;
 }
 
 .weibo .weibo_detail div {
@@ -64,18 +65,30 @@ section {
   width: 500px;
   color: #2a7185;
   font-family: Arial;
+  margin-bottom: 40px;
 }
 
 .weibo .weibo_detail .weibo_image {
   float: right;
   width: 120px;
   height: 90px;
+  margin-bottom: 55px;
 }
 
 .weibo .weibo_detail .weibo_image img {
   margin: 0 auto;
   width: 100%;
   height: 100%;
+}
+
+.weibo .weibo_detail .weibo_icons {
+  position: absolute;
+  bottom: 0;
+  margin-left: 510px;
+}
+
+.weibo .weibo_detail .weibo_icons .icon {
+  padding-left: 37px;
 }
 
 .weibo .weibo_face {
