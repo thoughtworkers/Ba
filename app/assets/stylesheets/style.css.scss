@@ -123,6 +123,9 @@ section {
 
 .weibo .weibo_face .weibo_username {
   text-align: center;
+  overflow: hidden;
+  width: 85px;
+  text-overflow: ellipsis;
   color: #fff;
   font: 14px Arial;
   margin-top: 4px;
