@@ -29,7 +29,7 @@ section {
   background-color: #e0e3dc;
 }
 
-.weibos {
+.weibos_content {
   padding: 30px 60px 0 60px;
   margin: 0 auto;
   width: 900px;
@@ -132,9 +132,10 @@ section {
 }
 
 .footer {
+  margin: 0 auto;
+  width: 1020px;
   height: 80px;
   border-top: 1px solid #ccc;
-  width: 100%;
   background-color: #fff;
   bottom: 0;
 }
@@ -144,4 +145,23 @@ section {
   color: #ccc;
   font: 12px Arial;
   padding-top: 20px;
+}
+
+.simplePagerNav {
+  background-color: #fff;
+  width: 1020px;
+  line-height: 55px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.simplePagerNav div {
+  width: 30px;
+  display: inline-block;
+}
+
+.simplePagerNav div a,
+.simplePagerNav div a:hover {
+  color: #bbb;
+  text-decoration: none;
 }
