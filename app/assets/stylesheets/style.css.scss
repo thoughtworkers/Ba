@@ -96,6 +96,7 @@ section {
 
 .weibo .weibo_detail .weibo_icons {
   float: right;
+  a:link{text-decoration:none;}
 }
 
 .weibo .weibo_detail .weibo_icons .icon {
@@ -148,6 +149,30 @@ section {
   color: #fff;
   font: 14px Arial;
   margin-top: 4px;
+}
+
+.weibo .weibo_comment {
+  width: 680px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 0 0 3px 3px;
+  box-shadow: 1px 1px 5px #ccc;
+  display: none;
+}
+
+.weibo .weibo_comment input{
+  width: 674px;
+  height: 35px;
+  margin-left: 1px;
+  font-size: 15px;
+}
+
+.weibo .weibo_comment button {
+  float: right;
+  margin-right: 20px;
+  margin-top: 7px;
+  border-radius: 3px 3px 3px 3px;
+  background-color: #f5deb3;
 }
 
 .footer {
