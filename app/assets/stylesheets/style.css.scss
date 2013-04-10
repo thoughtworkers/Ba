@@ -72,7 +72,7 @@ section {
   float: right;
   width: 120px;
   height: 90px;
-  margin-bottom: 55px;
+  margin-bottom: 65px;
 }
 
 .weibo .weibo_detail .weibo_image img {
@@ -81,10 +81,21 @@ section {
   height: 100%;
 }
 
-.weibo .weibo_detail .weibo_icons {
+.weibo .weibo_detail .weibo_interact {
   position: absolute;
   bottom: 0;
-  margin-left: 518px;
+  margin-bottom: 0;
+  width: 662px;
+}
+
+.weibo .weibo_detail .weibo_interact .last-update-time {
+  margin-left: 0;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.weibo .weibo_detail .weibo_icons {
+  float: right;
 }
 
 .weibo .weibo_detail .weibo_icons .icon {
@@ -104,6 +115,14 @@ section {
 
 .bgcolor-girl {
   background-color: #b55935;
+}
+
+.textcolor-boy {
+  color: #448899;
+}
+
+.textcolor-girl {
+  color: #b55935;
 }
 
 .bordercolor-girl {
