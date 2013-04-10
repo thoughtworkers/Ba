@@ -154,10 +154,34 @@ section {
 .weibo .weibo_comment {
   width: 680px;
   height: 80px;
+}
+
+.weibo .slide-element {
   background-color: #ffffff;
   border-radius: 0 0 3px 3px;
   box-shadow: 1px 1px 5px #ccc;
   display: none;
+}
+
+.weibo .weibo_zan_success {
+  width: 680px;
+  height: 40px;
+}
+
+.weibo .weibo_copy_success {
+  width: 680px;
+  height: 40px;
+}
+
+.weibo .slide-element a {
+  float: right;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+
+.weibo .slide-element .text {
+  margin-left: 30px;
+  margin-top: 7px;
 }
 
 .weibo .weibo_comment input{

@@ -7,3 +7,15 @@ $(document).ready ->
 
   $(".submit").click ->
     $(".weibo_comment").slideUp()
+
+  $(".icon-thumbs-up").click ->
+    $(".weibo_zan_success").slideDown()
+
+  $(".icon-share-alt").click ->
+    $(".weibo_copy_success").slideDown()
+
+  $(".side-up").click ->
+    $(".weibo_copy_success").slideUp()
+    $(".weibo_zan_success").slideUp()
+    $(".weibo_comment").slideUp()
+
