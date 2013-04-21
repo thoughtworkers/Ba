@@ -3,6 +3,6 @@
 require ::File.expand_path('../config/environment',  __FILE__)
 run Ba::Application
 
-WeiboOAuth2::Config.api_key = "1024377739"
-WeiboOAuth2::Config.api_secret = "91a7f400471795b77945e0afb05415b7"
-WeiboOAuth2::Config.redirect_uri = "http://127.0.0.1"
+WeiboOAuth2::Config.api_key = "3606922408"
+WeiboOAuth2::Config.api_secret = "a8bce370c7d38f9f1c02612c4616a101"
+WeiboOAuth2::Config.redirect_uri = "http://txtdy.com/welcome/callback"

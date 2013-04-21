@@ -7,4 +7,8 @@ class WelcomeController < ApplicationController
   def say
     @client = WeiboOAuth2::Client.new
   end
+
+  def callback
+    render 'index'
+  end
 end

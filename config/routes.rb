@@ -3,6 +3,7 @@ Ba::Application.routes.draw do
   root :to => "welcome#index"
   get "welcome/say" => "welcome#say"
   get "welcome" => "welcome#index"
+  get "welcome/callback" => 'welcome#callback'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
